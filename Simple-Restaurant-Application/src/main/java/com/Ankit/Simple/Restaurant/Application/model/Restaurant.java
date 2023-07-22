@@ -20,7 +20,6 @@ public class Restaurant {
     private Integer restaurantId;
     @NotBlank
     private String restaurantName;
-    @Email
     private String restaurantAddress;
     @Pattern(regexp = "^91\\d{10}$")
     private String restaurantPhone;
